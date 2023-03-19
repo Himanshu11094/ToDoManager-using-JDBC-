@@ -1,0 +1,33 @@
+## Problem Statement
+
+Todo Manager is an application which can Manage our Tasks and keep track of our Tasks. In the course of this week we will be creating a Todo manager.
+
+ 
+
+## User Stories
+
+As a user I should be able to login and system should validate the credentials
+As a user I should be able to add the task into a list
+As a user I should be able to update the task in the list
+As a user I should be able to delete the task in the list
+As a user I should be able to search a task from a list
+As a user I should be able to see all my tasks
+As a suer I should be able to see all the completed or incomplete tasks based on the requirement
+## Instructions:-
+
+Please create a task pojo.
+The task object should have
+TaskId(number auto generated)
+TaskTitle(String entered by the user)
+TaskText( String entered by the user)
+assignedTo(String entered by the user – store email of the user)
+taskCompleted : boolean(initial value will be false)
+Create a class User that should have following attributes
+Username
+Email
+password
+Please use list to store the tasks and user objects.
+All the CRUD operations should happen in a dao class. Main should contain only menu.
+The application can be exited only if user enters 0 to exit. Else user should see the menu again and again.
+Enter few dummy credentials for user and test the application for login and tasks for every user.
+Enhance the same application with database. Create user and tasks table and fetch data from database.
